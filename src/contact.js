@@ -1,5 +1,6 @@
 import { Page, Card, Link, Grid } from '@geist-ui/react'
 import Navbar from './Navbar'
+import Footer from './Footer'
 
 const Contact = () => {
 
@@ -20,6 +21,7 @@ const Contact = () => {
         <Link justify="center" href="https://github.com/uok825" target='_blank'>👾 Github</Link>
     </Card></Grid>
   </Grid.Container>
+  <Footer />
     </Page>
   )
 }

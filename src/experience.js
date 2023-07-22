@@ -1,5 +1,6 @@
 import { Page, Text, Card, Collapse, Link } from '@geist-ui/react'
 import Navbar from './Navbar'
+import Footer from './Footer'
 
 const Experience = () => {
 
@@ -22,6 +23,7 @@ const Experience = () => {
     </Collapse>
 </Collapse.Group>
   </Card>
+  <Footer />
     </Page>
   )
 }
