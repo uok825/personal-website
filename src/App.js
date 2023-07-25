@@ -3,17 +3,6 @@ import { Page, Text, Card } from '@geist-ui/react'
 import Navbar from './Navbar'
 import Footer from './Footer'
 
-// Fetches data from the API
-// url: the API endpoint
-// set: the state setter function
-export const fetchAPI = async (url, set) => {
-  const res = await fetch(`http://localhost:8000/apiv1/${url}`)
-  const data = await res.json()
-  console.log(data)
-  set(data)
-}
-
-
 const App = () => {
   return (
     <Page width="1200px">

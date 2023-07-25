@@ -1,17 +1,10 @@
 import { Page, Text, Card, Collapse, Link } from '@geist-ui/react'
-import { useEffect, useState } from 'react'
+import data from './data/data.json'
 
 import Navbar from './Navbar'
 import Footer from './Footer'
-import { fetchAPI } from './App'
 
 const Experience = () => {
-
-  const [data, setData] = useState();
-
-  useEffect(() => {
-    fetchAPI('experiences', setData)
-  }, []);
 
   return (
     <Page width="1200px">
