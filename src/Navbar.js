@@ -1,5 +1,5 @@
 import { Grid, Page, Text, Link } from '@geist-ui/react'
-import React from 'react'
+import React from 'react' 
 
 const Navbar = () => {
   return (
