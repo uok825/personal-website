@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "uok825.github.io/personal",
+  "homepage": "https://uok825.github.io/personal-website",
   "private": true,
   "dependencies": {
     "@geist-ui/core": "^2.3.8",
