@@ -14,10 +14,10 @@ ReactDOM.render(
         <CssBaseline />
         <Router>
           <Routes>
-            <Route path="/" element={<App />} />
-            <Route path="/experience" element={<Experience />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/stack" element={<Stack />} />
+            <Route path="/personal-website" element={<App />} />
+            <Route path="/personal-website/experience" element={<Experience />} />
+            <Route path="/personal-website/contact" element={<Contact />} />
+            <Route path="/personal-website/stack" element={<Stack />} />
           </Routes>
         </Router>
       </GeistProvider>
