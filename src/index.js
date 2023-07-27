@@ -10,17 +10,17 @@ import Stack from './stack'
 
 ReactDOM.render(
   <React.StrictMode>
+        <Router>
       <GeistProvider>
         <CssBaseline />
-        <Router>
           <Routes>
             <Route path="/" element={<App />} />
             <Route path="/experience" element={<Experience />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/stack" element={<Stack />} />
           </Routes>
-        </Router>
       </GeistProvider>
+        </Router>
   </React.StrictMode>,
   document.getElementById('root'),
 )
