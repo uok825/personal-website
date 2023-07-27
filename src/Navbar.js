@@ -9,13 +9,13 @@ const Navbar = () => {
             <Link href="/"><Text h2>About</Text></Link>
         </Grid>
         <Grid xs={7} justify="center" >
-            <Link href="/experience"><Text h2>Experience</Text></Link>
+            <Link href="/#/experience"><Text h2>Experience</Text></Link>
         </Grid>
         <Grid xs={7} justify="center" >
-            <Link href="/stack"><Text h2>Stack</Text></Link>
+            <Link href="/#/stack"><Text h2>Stack</Text></Link>
         </Grid>
         <Grid xs={5} justify="right" >
-            <Link href="/contact"><Text h2>Contact</Text></Link>
+            <Link href="/#/contact"><Text h2>Contact</Text></Link>
         </Grid>
 
         </Grid.Container>
