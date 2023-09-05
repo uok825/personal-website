@@ -6,7 +6,7 @@ const Navbar = () => {
     <Page.Header>
         <Grid.Container >
         <Grid xs={5} justify="left" >
-            <Link href="/"><Text h2>About</Text></Link>
+            <Link href="/#/"><Text h2>About</Text></Link>
         </Grid>
         <Grid xs={7} justify="center" >
             <Link href="/#/experience"><Text h2>Experience</Text></Link>
