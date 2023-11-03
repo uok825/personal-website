@@ -34,6 +34,13 @@
             "link": "https://ethglobal.com/showcase/oneopidentity-q6vz0",
             "linkshortcut": "ETHGlobal Showcase",
             "id": 5
+        },
+                {
+            "title": "ETHGlobal Online",
+            "body": "A member of the 'TAP' project. Representing team ITU Blockchain.",
+            "link": "https://ethglobal.com/showcase/tap-xo4u6",
+            "linkshortcut": "ETHGlobal Showcase",
+            "id": 5
         }
     ]
 }
