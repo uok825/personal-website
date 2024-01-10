@@ -12,9 +12,9 @@ const App = () => {
           Hi, I'm Utku Ömer Kılıç.
         </Text>
         <Text style={{ fontSize: 20 }} s b justify="center">
-          As a student of Istanbul Technical University and Head of Developer
-          Committee studying Environmental Engineering with a strong interest in
-          software and blockchain development.
+          As a student of Istanbul Technical University, and Head of Developer
+          Committee of ITU Blockchain, studying Environmental Engineering with a
+          strong interest in software and blockchain development.
           <div />I am seeking opportunities to leverage my skills and knowledge
           to contribute to innovative projects in the field.
         </Text>

@@ -29,7 +29,7 @@ const Contact = () => {
           <Card shadow width="100%">
             <Link
               justify="center"
-              href="https://www.linkedin.com/in/utku-%C3%B6mer-k%C4%B1l%C4%B1%C3%A7-8403761b2/"
+              href="https://www.linkedin.com/in/utkuomer/"
               target="_blank"
             >
               🔗 Linkedin
