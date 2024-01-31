@@ -9,7 +9,7 @@
     },
     {
       "title": "ScaffoldETH-v2 Hackathon",
-      "body": "Creator of the 'P2P NFT Lending and Borrowing' project, but not a winner project",
+      "body": "Creator of the 'P2P NFT Lending and Borrowing' project. Representing solo.",
       "link": "https://github.com/uok825/p2p-nft-lending",
       "linkshortcut": "Github",
       "id": 2
@@ -55,6 +55,13 @@
       "link": "https://ethglobal.com/showcase/meeth-domain-service-i3761",
       "linkshortcut": "ETHGlobal Showcase",
       "id": 8
+    },
+    {
+      "title": "ETHGlobal LFGHO",
+      "body": "A member of the 'BOO! the Facilitator' project. Representing team ITU Blockchain.",
+      "link": "https://ethglobal.com/showcase/boo-the-faciliator-s99rc",
+      "linkshortcut": "ETHGlobal Showcase",
+      "id": 9
     }
   ]
 }

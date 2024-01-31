@@ -11,7 +11,7 @@ import Stack from "./stack";
 
 ReactDOM.render(
   <React.StrictMode>
-    <GeistProvider>
+    <GeistProvider themeType="light">
       <CssBaseline />
       <HashRouter>
         <Routes>
