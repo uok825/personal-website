@@ -1,12 +1,12 @@
 import { Page, Text, Card } from "@geist-ui/react";
 
-import Navbar from "./Navbar";
-import Footer from "./Footer";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
     <Page width="1200px">
-      <Navbar />
+      <Header />
       <Card mt={3} justify="center" hovarable>
         <Text h1 style={{ fontSize: 30 }}>
           Hi, I'm Utku Ömer Kılıç.

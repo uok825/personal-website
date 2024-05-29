@@ -1,15 +1,29 @@
 import { Page, Text, Card, Collapse, Link } from "@geist-ui/react";
-import data from "./data/data.json";
+import data from "../data/data.json";
 
-import Navbar from "./Navbar";
-import Footer from "./Footer";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
 
 const Experience = () => {
   return (
     <Page width="1200px">
-      <Navbar />
-
+      <Header />
       <Card mt={3} justify="center" hovarable>
+        <Text h1 style={{ fontSize: 30 }}>
+          Experience
+        </Text>
+        <Text style={{ fontSize: 20 }} s b justify="center">
+          Fibrous Finance BackEnd Developer | May, 2024 - Present
+        </Text>
+        <div></div>
+        <Text style={{ fontSize: 20 }} s b justify="center">
+          ITU Blockchain Head Of Development | September, 2023 - Present
+        </Text>
+      </Card>
+      <Card mt={1} justify="center" hovarable>
+        <Text h2 style={{ fontSize: 30 }}>
+          Hackathons
+        </Text>
         <Collapse.Group>
           {!data ? (
             <Text>Loading...</Text>

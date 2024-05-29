@@ -5,9 +5,9 @@ import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import { HashRouter } from "react-router-dom";
 
 import App from "./App";
-import Experience from "./experience";
-import Contact from "./contact";
-import Stack from "./stack";
+import Experience from "./pages/experience";
+import Contact from "./pages/contact";
+import Stack from "./pages/stack";
 
 ReactDOM.render(
   <React.StrictMode>

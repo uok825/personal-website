@@ -1,10 +1,10 @@
 import { Page, Card, Text, Grid } from "@geist-ui/react";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
 const Stack = () => {
   return (
     <Page width="1200px">
-      <Navbar />
+      <Header />
       <Grid.Container gap={2} mt={3} justify="center">
         <Card shadow width="100%">
           <Grid>
