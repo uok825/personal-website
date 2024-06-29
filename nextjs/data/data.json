@@ -1,0 +1,86 @@
+{
+  "experiences": [
+    {
+      "title": "Avalanche ReFi Hackathon",
+      "body": "A member of the winning team in the 'Yerel Etki' project at the Avalanche ReFi Hackathon, representing team Chainway.",
+      "link": "https://www.akbanklab.com/tr/akbank-refi-hackathon#section-8",
+      "linkshortcut": "AkbankLab",
+      "imgSrc": "",
+      "id": 1
+    },
+    {
+      "title": "ScaffoldETH-v2 Hackathon",
+      "body": "Creator of the 'P2P NFT Lending and Borrowing' project. Representing solo.",
+      "link": "https://github.com/uok825/p2p-nft-lending",
+      "linkshortcut": "Github",
+      "imgSrc": "github_logo.png",
+      "id": 2
+    },
+    {
+      "title": "LeadingPrivacy’s ETH Privacy Istanbul Hackathon",
+      "body": "A member of the winning team on the ZKSync Account Abstraction track in the 'WillWallet' project at the ETH Privacy Hackathon, representing team ITU Blockchain.",
+      "link": "https://github.com/itublockchain/will-wallet-leading-privacy",
+      "linkshortcut": "Github",
+      "imgSrc": "github_logo.png",
+      "id": 3
+    },
+    {
+      "title": "ETHGlobal HackFS23",
+      "body": "A member of the 'subpr0br' project which is Finalist and selected for 2 best use bounties. Representing me and my partner.",
+      "link": "https://www.ethglobal.com/showcase/subpr0br-ohvbo",
+      "linkshortcut": "ETHGlobal Showcase",
+      "id": 4
+    },
+    {
+      "title": "ETHGlobal SuperHack",
+      "body": "A member of the 'OneOP-Identity' project. Representing team ITU Blockchain.",
+      "link": "https://ethglobal.com/showcase/oneopidentity-q6vz0",
+      "linkshortcut": "ETHGlobal Showcase",
+      "id": 5
+    },
+    {
+      "title": "ETHGlobal Online",
+      "body": "A member of the 'TAP' project. Representing team ITU Blockchain.",
+      "link": "https://ethglobal.com/showcase/tap-xo4u6",
+      "linkshortcut": "ETHGlobal Showcase",
+      "id": 6
+    },
+    {
+      "title": "zkHackathon by Aleo",
+      "body": "A member of the 'zKyc' project. Representing team ITU Blockchain.",
+      "link": "https://devpost.com/software/ali-and-boyfriends",
+      "linkshortcut": "Devpost",
+      "imgSrc": "https://d2dmyh35ffsxbl.cloudfront.net/assets/reimagine2/devpost-logo-25d0005ec83e3b9ef6fce93235bb6d642d7c828f31758ebdb5b7ee87de7d45c3.svg",
+      "id": 7
+    },
+    {
+      "title": "ETHGlobal Istanbul",
+      "body": "A member of the 'meETH Domain Service' project. Representing team ITU Blockchain.",
+      "link": "https://ethglobal.com/showcase/meeth-domain-service-i3761",
+      "linkshortcut": "ETHGlobal Showcase",
+      "id": 8
+    },
+    {
+      "title": "ETHGlobal LFGHO",
+      "body": "A member of the 'BOO! the Facilitator' project. Representing team ITU Blockchain.",
+      "link": "https://ethglobal.com/showcase/boo-the-faciliator-s99rc",
+      "linkshortcut": "ETHGlobal Showcase",
+      "id": 9
+    },
+    {
+      "title": "ETHGlobal FrameWorks",
+      "body": "A member of the 'frAAme' project. Representing team ITU Blockchain.",
+      "link": "https://ethglobal.com/showcase/fraame-jt4jf",
+      "linkshortcut": "ETHGlobal Showcase",
+      "id": 10
+    },
+    {
+      "title": "ETHDam",
+      "body": "A member of the 'OasisGuard' project which is selected for Finalist, Best Security and 1ST place at Oasis track. Representing team ITU Blockchain.",
+      "link": "https://taikai.network/cryptocanal/hackathons/ethdam2024/projects/cluxusdx700otyz01epbaf6wa/idea",
+      "linkshortcut": "Taikai",
+      "imgSrc": "https://cdn.myportfolio.com/4ea2cdcb-4695-4ad3-bd43-55c43a126e2a/2454743d-afb5-4fd1-a518-477556cdb10e_rw_1200.png?h=22f00c862adec0576021e4cdbad9815c",
+      "id": 11
+    }
+  ]
+}

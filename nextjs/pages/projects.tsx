@@ -1,67 +1,66 @@
+import React, { useState } from "react";
 import Navbar from "../components/Navbar";
+import projects from "../data/data.json";
 
 export default function Projects() {
+  const [flag, setFlag] = useState(0);
+  const data = projects.experiences;
   const scrollRight = () => {
-    console.log("scroll right");
+    setFlag((flag + 3) % data.length);
   };
-  const data = [
-    {
-      index: 1,
-      title: "Fibrous Finance",
-      date: "May 2024 to Present",
-      description:
-        "First DEX aggregator on Starknet. I work as a backend developer at Fibrous Finance. I work with TypeScript, Postgres, NestJS and Solidity. I took part in the transition to EVM networks",
-    },
-    {
-      index: 2,
-      title: "ITU Blockchain",
-      date: "Nov 2023 to Present",
-      description:
-        "The first and largest Turkish university blockchain society, boasting over 1500 members. I lead the development committee. I am responsible for organizing workshops, creating syllabus for full-stack blockchain development, and leading hackathon teams from ideation to submission.",
-    },
-    {
-      title: "Istanbul Technical University, BS",
-      date: "2022 to 2027 (Expected)",
-      description: "Enviromental Engineering Student",
-    },
-  ];
+
+  const scrollLeft = () => {
+    setFlag((flag - 3 + data.length) % data.length);
+  };
+
+  const visibleProjects = data
+    .slice(flag, flag + 3)
+    .concat(data.slice(0, Math.max(0, flag + 3 - data.length)));
+
   return (
-    <div className="bg-black text-white min-h-screen min-w-full flex-col items-center">
+    <div className="bg-black text-white min-h-screen flex flex-col">
       <Navbar />
       <h1 className="text-white font-bold font-poppins text-[70px] mb-12 text-center">
         Projects
       </h1>
 
-      <div className="flex items-center justify-center">
-        <button
-          onClick={scrollRight}
-          className="absolute left-4 top-1/2 transform p-2 text-white z-10 "
-        >
-          &larr;
+      <div className="relative flex items-center justify-center w-full mt-40 h-fit">
+        <button onClick={scrollLeft} className="z-10 size-16 -translate-x-8">
+          <img src="arrow_back.png"></img>
         </button>
-        <div className="border-white border bg-black rounded-lg shadow-lg w-[400px] h-[400px]">
-          <h2 className="text-2xl font-bold mb-4 text-center text-white">
-            {"asasasa"}
-          </h2>
-          <p className="text-white text-center">{"dsofkdgp"}</p>
-        </div>
-        <div className="border-white border bg-black rounded-lg shadow-lg w-[500px] h-[500px]">
-          <h2 className="text-2xl font-bold mb-4 text-center text-white">
-            {"asasasa"}
-          </h2>
-          <p className="text-white text-center">{"dsofkdgp"}</p>
-        </div>
-        <div className="border-white border bg-black rounded-lg shadow-lg w-[400px] h-[400px]">
-          <h2 className="text-2xl font-bold mb-4 text-center text-white">
-            {"asasasa"}
-          </h2>
-          <p className="text-white text-center">{"dsofkdgp"}</p>
+        <div className="flex flex-row justify-center items-center space-x-8 overflow-x-hidden">
+          {visibleProjects.map((project, index) => (
+            <div
+              key={index}
+              className="relative bg-white rounded-3xl shadow-lg w-[500px] h-[500px] p-2"
+            >
+              <img
+                className="rounded-t-lg h-[90px] mx-auto mt-12"
+                src={project.imgSrc || "ETHGlobal.png"}
+                alt=""
+              />
+
+              <h2 className="text-2xl font-bold mb-4 mt-12 text-center text-gray-900">
+                {project.title}
+              </h2>
+              <p className="text-gray-600 text-center leading-6 flex-grow">
+                {project.body}
+              </p>
+              <a
+                href={project.link}
+                target="blank"
+                className="absolute bottom-4 left-1/2 p-[10px] text-center  -translate-x-1/2 text-white font-bold bg-black border rounded-lg border-black w-[256px] h-[48px]"
+              >
+                {project.linkshortcut}
+              </a>
+            </div>
+          ))}
         </div>
         <button
-          onClick={scrollRight}
-          className="absolute right-4 top-1/2 transform p-2 text-white z-10 "
+          onClick={scrollLeft}
+          className="z-10 size-16 translate-x-8 rotate-180"
         >
-          &rarr;
+          <img src="arrow_back.png"></img>
         </button>
       </div>
     </div>
