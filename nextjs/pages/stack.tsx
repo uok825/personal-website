@@ -9,75 +9,40 @@ export default function Stack() {
         <h1 className="text-white font-bold font-poppins text-[70px] mb-12 text-center">
           Stack
         </h1>
-        {/*         <div className="flex flex-row justify-center space-x-8">
-          <div className="flex flex-col max-w-sm items-center justify-between flex-1 h-full">
-            <Image
-              src="/typescript.svg"
-              alt="TypeScript Logo"
-              className="rounded-full border-2"
-              width={150}
-              height={150}
-            />
-            <div className="px-6 py-8 flex flex-col flex-1 justify-between">
-              <div className="font-bold text-2xl mb-4 text-center">
+        <div className="relative flex items-center justify-center w-full mt-40 h-fit">
+          <div className="flex flex-row justify-center items-center space-x-6 overflow-x-hidden transition-transform duration-500">
+            <div className="relative bg-white rounded-3xl shadow-lg w-[450px] h-[450px] p-12 transition-transform duration-500 transform">
+              <img
+                className="rounded-xl mx-auto scale-[2] mt-10"
+                src="typescript.svg"
+              ></img>
+              <h2 className="text-3xl font-bold mb-2 mt-16 text-center text-gray-900">
                 TypeScript / JavaScript
-              </div>
-              <p className="text-white text-center flex-grow">
+              </h2>
+              <p className="text-gray-700 text-center leading-6 text-[18px] flex-grow pl-1 pr-1">
                 My “main” interested programming languages, I've worked with it
                 for about two and half year. I've used it in the front-end with
                 Nextjs & React, ExpressJS & NestJS for API's, NodeJS for
                 backend.
               </p>
             </div>
-          </div>
-          <div className="flex flex-col max-w-sm items-center justify-between flex-1 h-full">
-            <Image
-              src="/solidity-blue.svg"
-              alt="Solidity Logo"
-              className="rounded-full border-2 items-center justify-center"
-              width={150}
-              height={150}
-            />
-            <div className="px-6 py-8 flex flex-col flex-1 justify-between">
-              <div className="font-bold text-2xl mb-4 text-center">
+            <div className="relative bg-white rounded-3xl shadow-lg w-[450px] h-[450px] p-12 transition-transform duration-500 transform">
+              <img
+                className="rounded-xl mx-auto scale-[2] mt-10"
+                src="solidity.svg"
+              ></img>
+              <h2 className="text-3xl font-bold mb-2 mt-16 text-center text-gray-900">
                 Solidity
-              </div>
-              <p className="text-white text-center flex-grow">
-                I've been using Solidity about two years. I’m enjoying coding
-                contracts. Build some products and join lot of hackathons.
-              </p>
-            </div>
-          </div>
-          <div className="flex flex-col max-w-sm items-center justify-between flex-1 h-full">
-            <Image
-              src="/sqlite.svg"
-              alt="SQLite Logo"
-              className="rounded-full p-1 border-2 items-center justify-center"
-              width={150}
-              height={150}
-            />
-            <div className="px-6 py-8 flex flex-col flex-1 justify-between">
-              <div className="font-bold text-2xl mb-4 text-center">SQLite</div>
-              <p className="text-white text-center flex-grow">
-                I've used SQLite for about two years. I've used it in the
-                Postgre SQL on backends also in the HackFS23 finalist project.
-              </p>
-            </div>
-          </div>
-        </div> */}
-        <div className="relative flex items-center justify-center w-full mt-40 h-fit">
-          <div className="flex flex-row justify-center items-center space-x-6 overflow-x-hidden transition-transform duration-500">
-            <div className="relative bg-white rounded-3xl shadow-lg w-[450px] h-[400px] transition-transform duration-500 transform">
-              <img className="scale-[0.1]" src="typescript.svg"></img>
-              <h2 className="text-3xl font-bold mb-2 mt-16 text-center text-gray-900">
-                TypeScript
               </h2>
               <p className="text-gray-700 text-center leading-6 text-[18px] flex-grow pl-1 pr-1">
-                I've used SQLite for about two years. I've used it in the
-                Postgre SQL on backends also in the HackFS23 finalist project.
+                I've been using Solidity for about two years. I have built some
+                products and joined many hackathons. I have intermediate skills
+                and experience with smart contracts, dApps, and blockchain
+                technology. I also like learning new techniques and improving my
+                skills.
               </p>
             </div>
-            <div className="relative bg-white rounded-3xl shadow-lg w-[450px] h-[400px] p-12 transition-transform duration-500 transform">
+            <div className="relative bg-white rounded-3xl shadow-lg w-[450px] h-[450px] p-12 transition-transform duration-500 transform">
               <img
                 className="rounded-xl mx-auto scale-[2] mt-10"
                 src="sqlite.svg"
@@ -86,21 +51,9 @@ export default function Stack() {
                 SQLite
               </h2>
               <p className="text-gray-700 text-center leading-6 text-[18px] flex-grow pl-1 pr-1">
-                I've used SQLite for about two years. I've used it in the
-                Postgre SQL on backends also in the HackFS23 finalist project.
-              </p>
-            </div>
-            <div className="relative bg-white rounded-3xl shadow-lg w-[450px] h-[400px] p-12 transition-transform duration-500 transform">
-              <img
-                className="rounded-xl mx-auto scale-[2] mt-10"
-                src="sqlite.svg"
-              ></img>
-              <h2 className="text-3xl font-bold mb-2 mt-16 text-center text-gray-900">
-                SQLite
-              </h2>
-              <p className="text-gray-700 text-center leading-6 text-[18px] flex-grow pl-1 pr-1">
-                I've used SQLite for about two years. I've used it in the
-                Postgre SQL on backends also in the HackFS23 finalist project.
+                I use SQLite regularly and have been using it for about two
+                years. I have used it with PostgreSQL on backends and in the
+                HackFS23 finalist project.
               </p>
             </div>{" "}
           </div>
