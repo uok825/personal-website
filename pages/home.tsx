@@ -14,7 +14,7 @@ const Home = () => {
           my name is <span className="font-bold">Utku Ömer</span>
         </h2>
         <p className="text-[20px] sm:text-[30px] md:text-[40px] ml-4 sm:ml-8 md:ml-12">
-          and I'm a <span className="font-light">&lt;developer/&gt;</span>
+          and I&apos;m a <span className="font-light">&lt;developer/&gt;</span>
         </p>
       </div>
     </div>
