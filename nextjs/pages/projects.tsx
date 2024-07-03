@@ -26,7 +26,7 @@ export default function Projects() {
   return (
     <div className="bg-black text-white min-h-screen min-w-full flex flex-col">
       <Navbar />
-      <h1 className="text-white font-bold font-poppins text-[40px] sm:text-[50px] md:text-[70px] mb-12 sm:mb-24 md:mb-32 text-center">
+      <h1 className="text-white font-bold font-poppins text-[40px] sm:text-[50px] md:text-[70px] mb-12 sm:mb-24 md:mb-6 text-center">
         Projects
       </h1>
 
