@@ -9,8 +9,8 @@ export default function Stack() {
         <h1 className="text-white font-bold font-poppins text-[40px] sm:text-[50px] md:text-[70px] mb-6 sm:mb-12 text-center">
           Stack
         </h1>
-        <div className="relative flex items-center justify-center w-full mt-10 sm:mt-20 overflow-x-auto">
-          <div className="flex flex-row  items-center space-x-6 transition-transform duration-500">
+        <div className="relative flex items-center md:justify-center w-full mt-10 sm:mt-20 overflow-x-auto">
+          <div className="flex flex-row items-center space-x-6 transition-transform duration-500">
             <div className="relative bg-white rounded-3xl shadow-lg w-[300px] sm:w-[350px] md:w-[450px] h-[400px] sm:h-[450px] p-6 sm:p-12 transition-transform duration-500 transform">
               <img
                 className="rounded-xl mx-auto scale-150 sm:scale-175 md:scale-[2] mt-6 sm:mt-8 md:mt-10"
