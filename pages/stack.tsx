@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Navbar from "../components/Navbar";
 
 export default function Stack() {
@@ -48,7 +47,7 @@ export default function Stack() {
                 src="sqlite.svg"
               ></img>
               <h2 className="text-2xl sm:text-3xl font-bold mb-2 mt-10 sm:mt-12 md:mt-16 text-center text-gray-900">
-                SQLite
+                SQL
               </h2>
               <p className="text-gray-700 text-center leading-6 text-[14px] sm:text-[16px] md:text-[18px] flex-grow px-2">
                 I use SQLite regularly and have been using it for about two

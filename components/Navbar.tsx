@@ -37,6 +37,14 @@ function Navbar() {
           >
             Contact
           </Link>
+          <Link
+            href="/CV.pdf"
+            className="hover:underline font-montserrat font-thin p-2 md:p-3"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            CV
+          </Link>
         </div>
       </div>
     </header>

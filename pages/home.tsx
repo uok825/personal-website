@@ -11,10 +11,11 @@ const Home = () => {
           hi!
         </h1>
         <h2 className="text-white font-light font-poppins text-[30px] sm:text-[40px] md:text-[50px] ml-4 sm:ml-8 md:ml-12">
-          my name is <span className="font-bold">Utku Ömer</span>
+          my name is <span className="font-bold">Utku Omer</span>
         </h2>
         <p className="text-[20px] sm:text-[30px] md:text-[40px] ml-4 sm:ml-8 md:ml-12">
-          and I&apos;m a <span className="font-light">&lt;developer/&gt;</span>
+          and I&apos;m a{" "}
+          <span className="font-light">&lt;fs blockchain developer/&gt;</span>
         </p>
       </div>
     </div>
