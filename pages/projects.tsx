@@ -8,6 +8,7 @@ import {
   CarouselPrevious,
   CarouselNext,
   CarouselItem,
+  type CarouselApi,
 } from "@/components/ui/carousel";
 
 interface Project {
@@ -94,41 +95,60 @@ const DesktopCarousel: React.FC<CarouselProps> = ({ data }) => {
 };
 
 const MobileCarousel: React.FC<CarouselProps> = ({ data }) => {
-  return (
-    <Carousel className="w-full max-w-xs">
-      <CarouselContent>
-        {data.map((project, index) => (
-          <CarouselItem key={project.id || index}>
-            <div className="p-1">
-              <div className="relative bg-white rounded-3xl shadow-lg w-full h-[400px] sm:h-[500px] md:h-[600px] p-4">
-                <img
-                  className="rounded-2xl mx-auto border-2 border-solid border-black"
-                  src={project.imgSrc}
-                  alt={project.title || "Project image"}
-                />
+  const [api, setApi] = React.useState<CarouselApi>();
+  const [current, setCurrent] = React.useState(0);
+  const [count, setCount] = React.useState(0);
 
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-2 sm:mb-4 mt-4 sm:mt-12 text-center text-gray-900">
-                  {project.title}
-                </h2>
-                <p className="text-gray-700 text-center leading-6 text-sm sm:text-md md:text-lg flex-grow px-1">
-                  {project.body}
-                </p>
-                <a
-                  href={project.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="absolute bottom-4 sm:bottom-8 left-1/2 p-[6px] sm:p-[10px] text-center -translate-x-1/2 text-white font-bold bg-black border rounded-lg border-black w-[200px] sm:w-[256px] h-[36px] sm:h-[48px]"
-                >
-                  {project.linkshortcut}
-                </a>
+  React.useEffect(() => {
+    if (!api) {
+      return;
+    }
+
+    setCount(api.scrollSnapList().length);
+    setCurrent(api.selectedScrollSnap() + 1);
+
+    api.on("select", () => {
+      setCurrent(api.selectedScrollSnap() + 1);
+    });
+  }, [api]);
+
+  return (
+    <div className="flex flex-col items-center justify-center">
+      <Carousel setApi={setApi} className="w-full max-w-xs">
+        <CarouselContent>
+          {data.map((project, index) => (
+            <CarouselItem key={project.id || index}>
+              <div className="p-1">
+                <div className="relative bg-white rounded-3xl shadow-lg w-full h-[400px] sm:h-[500px] md:h-[600px] p-4 mx-auto">
+                  <img
+                    className="rounded-2xl mx-auto border-2 border-solid border-black"
+                    src={project.imgSrc}
+                    alt={project.title || "Project image"}
+                  />
+                  <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-2 sm:mb-4 mt-4 sm:mt-12 text-center text-gray-900">
+                    {project.title}
+                  </h2>
+                  <p className="text-gray-700 text-center leading-6 text-sm sm:text-md md:text-lg flex-grow px-1">
+                    {project.body}
+                  </p>
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="absolute bottom-4 sm:bottom-8 left-1/2 p-[6px] sm:p-[10px] text-center -translate-x-1/2 text-white font-bold bg-black border rounded-lg border-black w-[200px] sm:w-[256px] h-[36px] sm:h-[48px]"
+                  >
+                    {project.linkshortcut}
+                  </a>
+                </div>
               </div>
-            </div>
-          </CarouselItem>
-        ))}
-      </CarouselContent>
-      <CarouselPrevious />
-      <CarouselNext />
-    </Carousel>
+            </CarouselItem>
+          ))}
+        </CarouselContent>
+      </Carousel>
+      <div className="text-gray font-light mt-4">
+        Slide {current} of {count}
+      </div>
+    </div>
   );
 };
 
