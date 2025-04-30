@@ -34,11 +34,10 @@ export default function Stack() {
                 Solidity
               </h2>
               <p className="text-gray-700 text-center leading-6 text-[14px] sm:text-[16px] md:text-[18px] flex-grow px-2">
-                I&apos;ve been using Solidity for about two years. I have built
-                some products and joined many hackathons. I have intermediate
+                I&apos;ve been using Solidity for about two and half years. I
+                have built some products and joined many hackathons. I have
                 skills and experience with smart contracts, dApps, and
-                blockchain technology. I also like learning new techniques and
-                improving my skills.
+                blockchain technology.
               </p>
             </div>
             <div className="relative bg-white rounded-3xl shadow-lg w-[300px] sm:w-[350px] md:w-[450px] h-[400px] sm:h-[450px] p-6 sm:p-12 transition-transform duration-500 transform">
