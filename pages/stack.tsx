@@ -15,10 +15,10 @@ export default function Stack() {
                 TypeScript / JavaScript
               </div>
               <p className="text-white text-lg sm:text-xl font-light ml-6 sm:ml-12 mb-2">
-                My "main" interested programming languages, I&apos;ve worked
-                with it for about two and half years. I&apos;ve used it in the
+                My &quot;main&quot; interested programming languages, I&apos;ve worked
+                with it for three years. I&apos;ve used it in the
                 front-end with Next.js & React, ExpressJS & NestJS for
-                API&apos;s, NodeJS for backend.
+                API&apos;s, NodeJS for backend. Built various kind of indexers for blockchain to feed data to frontends and smart contracts.
               </p>
             </div>
             <div className="flex flex-col items-start justify-between flex-1 h-full">
@@ -26,10 +26,10 @@ export default function Stack() {
                 Solidity
               </div>
               <p className="text-white text-lg sm:text-xl font-light ml-6 sm:ml-12 mb-2">
-                I&apos;ve been using Solidity for about two and half years. I
+                I&apos;ve been using Solidity for three years. I
                 have built some products and joined many hackathons. I have
-                skills and experience with smart contracts, dApps, and
-                blockchain technology.
+                skills and experience with complex smart contracts, dApps, and
+                blockchain technology. Built Name Service, Router contracts.
               </p>
             </div>
             <div className="flex flex-col items-start justify-between flex-1 h-full mt-4">
@@ -38,8 +38,8 @@ export default function Stack() {
               </div>
               <p className="text-white text-lg sm:text-xl font-light ml-6 sm:ml-12 mb-2">
                 I use SQLite regularly and have been using it for about two
-                years. I have used it with PostgreSQL on backends and in the
-                HackFS23 finalist project.
+                years. I have used it with PostgreSQL on backends to store and
+                manage data efficiently.
               </p>
             </div>
           </div>
